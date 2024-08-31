@@ -1,0 +1,47 @@
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui; /* Гарнитура шрифта */
+  font-weight: 400; /* Толщина шрифта */
+  font-style: normal; /* Стиль шрифта */
+}
+
+body {
+  font-family: "Henny Penny", system-ui; /* Гарнитура шрифта */
+  font-weight: 400; /* Толщина шрифта */
+  font-size: 24px; /* Размер шрифта */
+  background-color: #dccae9; /* Цвет фона */
+}
+
+.slide-container {
+  max-width: 90%; /* Ширина карусели */
+  margin: auto; /* Центрирование по горизонтали */
+  margin-top: 2em; /* Отступ сверху */
+  margin-bottom: 2em; /* Отступ снизу */
+}
+
+.carousel-inner img {
+  max-height: 400px; /* Высота слайдов */
+  object-fit: cover; /* Обрезка изображения */
+}
+
+.cards-container {
+  max-width: 95%; /* Ширина карусели */
+  margin: auto; /* Центрирование по горизонтали */
+}
+
+.card {
+  margin: 0.5em; /* Отступ между карточками */
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.btn-primary {
+  background-color: #9356a0;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2c1b47;
+  transition: background-color 1s ease;
+}
