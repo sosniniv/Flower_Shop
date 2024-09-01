@@ -11,6 +11,10 @@ body {
   background-color: #dccae9; /* Цвет фона */
 }
 
+.modal-body {
+  font-size: 18px;
+}
+
 .slide-container {
   max-width: 90%; /* Ширина карусели */
   margin: auto; /* Центрирование по горизонтали */
@@ -29,7 +33,9 @@ body {
 }
 
 .card {
-  margin: 0.5em; /* Отступ между карточками */
+  margin: 0.3em; /* Отступ между карточками */
+  max-width: 100%; /* Максимальная ширина карточки */
+  min-width: 20rem; /* Минимальная ширина карточки */
 }
 
 .card-text {
@@ -37,11 +43,27 @@ body {
 }
 
 .btn-primary {
-  background-color: #9356a0;
+  background-color: #2c1b47;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #2c1b47;
+  background-color: #9356a0;
   transition: background-color 1s ease;
+}
+
+.btn-primary:active {
+  background-color: #dccae9;
+}
+
+.footer-container {
+  background: linear-gradient(#dccae9, 65%, #2c1b47);
+}
+
+.btn-primary:active {
+  background-color: #dccae9;
+}
+
+.pages-container {
+  margin-bottom: 5em;
 }
